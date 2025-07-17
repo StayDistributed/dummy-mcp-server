@@ -1,0 +1,27 @@
+{
+  "__tools__": [
+    {
+      "name": "ping",
+      "description": "Replies with pong.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "echo",
+      "description": "Echoes back the given message.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Message to echo back"
+          }
+        },
+        "required": ["message"]
+      }
+    }
+  ]
+}
